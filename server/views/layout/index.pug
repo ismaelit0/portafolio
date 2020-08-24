@@ -11,12 +11,12 @@ html(lang="en")
         link(rel="stylesheet", href='css/styles.css')
         link(rel="stylesheet", href="css/skills.css")
         <script src="https://kit.fontawesome.com/1690de6552.js" crossorigin="anonymous"></script>
-        //- <script crossorigin="anonymous">
-        //-     document.addEventListener('click', x=>0);
-        //- </script>
+        <script crossorigin="anonymous">
+            document.addEventListener('click', x=>0);
+        </script>
         
         title #{pagina}
-    body(itemIndex=0)
+    body(itemIndex=0 onclick)
         //- include includes/header
         block contenido
         include includes/footer
