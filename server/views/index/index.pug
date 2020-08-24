@@ -1,0 +1,435 @@
+extends ../layout/index
+block contenido
+    section.background.main.center.header
+        div.menu
+            div.tools
+                //- label(for="toggle") &#9776;
+            button.btn-menu &#9776;
+            //- input#toggle(type="checkbox" name="")
+            nav.nav
+                ul.nav-li
+                    li
+                        a(href="#acerca")
+                            p Acerca De Mí
+                            hr
+                    li
+                        a(href="#habilidades")
+                            p Habilidades
+                            hr 
+                    li    
+                        a(href="#proyectos")
+                            p Proyectos
+                            hr 
+                    li
+                        a(href="#contacto")
+                            p Contacto
+                            hr 
+            .t-center.header-texto    
+                h1 Jose
+                h3 Softwer Developer/Web Developer
+
+    section.center.p-top.triangular#acerca
+        div.acerca
+            h2.aboutP.t-center.p-bottom ACERCA DE MÍ
+            div.s-between.about
+                .about-img
+                    img(src="/img/imagen1.jpg" alt="Welio Welio").circle.about-photo    
+                .about-text
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab fugit odio quo minus illum autem 
+                        |Fugiat dolore illo labore omnis quibusdam recusandae odit minus tempore, aperiam aut unde, quisquam. 
+                        |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aliquam quasi ad fugiat facilis asperiores possimus iure 
+                        |architecto officia, nobis quis ex ipsa corporis consequatur porro beatae unde minus accusamus
+
+                    td
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab fugit odio quo minus illum autem 
+                        |Fugiat dolore illo labore omnis quibusdam recusandae odit minus tempore, aperiam aut unde, quisquam. 
+                        |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aliquam quasi ad fugiat facilis asperiores possimus iure 
+                        |architecto officia, nobis quis ex ipsa corporis consequatur porro beatae unde minus accusamus                               
+                .polygon
+
+
+
+        h2.t-center.habilidades.p-top#habilidades Habilidades
+
+        // Habilidades
+        .flex-wrapper
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='85, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 HTML
+                    H3 85%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='75, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 CSS
+                    H3 75%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='73, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Javascript
+                    H3 73%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='67, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 PHP
+                    H3 67%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='58, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Node
+                    H3 58%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='69, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 SQL
+                    H3 69%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='52, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 MySQL
+                    H3 52%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='67, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Bootstrap
+                    H3 67%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='45, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 React
+                    H3 45%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='78, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 C#
+                    H3 78%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='63, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Wordpress
+                    H3 63%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='59, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Adobe XD
+                    H3 59%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='38, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Laravel
+                    H3 38%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='52, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Vue JS
+                    H3 52%
+            .single-chart
+                svg.circular-chart.purple(viewbox='0 0 36 36')
+                    path.circle-bg(d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                    path.circle(stroke-dasharray='63, 100' d='M18 2.0845\
+                    a 15.9155 15.9155 0 0 1 0 31.831\
+                    a 15.9155 15.9155 0 0 1 0 -31.831')
+                .porcentaje
+                    h2 Pug
+                    H3 63%
+
+
+        section.container.center.p-top#proyectos
+            h2.t-center.p-bottom PROYECTOS
+            .works
+                .card-container
+                    .card(id="1")
+                        .side
+                            img(class="" src="/img/PlantillaCurso.JPG" alt="")
+                        .side.back  
+                                .card-proyectos
+                                    img.card-img-top( src="/img/PlantillaCurso.JPG" alt='')
+                                    .overlay
+                                        .proyectos
+                                            h2.card-title Plantilla de Curso
+                                            p.card-text Puedes ver descripcion y contenido del Curso. 
+                                            .iconos-proyectos
+                                                a(href='https://github.com/isgam1' target="_blank")
+                                                    i.fab.fa-github
+                                                a(href="https://demoplantillacursos.000webhostapp.com" target="_blank")
+                                                    i.fas.fa-link
+                                            p.card-text1 Lenguajes Utilizados   
+                                            .iconos-proyectos  
+                                                i.fab.fa-html5
+                                                i.fab.fa-css3-alt
+                                                i.fab.fa-js-square
+                                                
+                                
+                                            
+                .card-container
+                    .card(id="2")
+                        .side
+                            img(class="" src="/img/PlantillaServicio.png" alt="")
+                        .side.back
+                            .card-proyectos
+                                img.card-img-top( src="/img/PlantillaServicio.png" alt='')
+                                .overlay
+                                    .proyectos 
+                                        h2.card-title TITULO DEL PROYECTO
+                                        p.card-text Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        .iconos-proyectos
+                                            a(href='#')
+                                                i.fab.fa-github
+                                            a(href='https://demoservicios.000webhostapp.com/' target="_blank")
+                                                i.fas.fa-link
+                                        p.card-text1 Lenguajes Utilizados   
+                                        .iconos-proyectos  
+                                            i.fab.fa-html5
+                                            i.fab.fa-bootstrap
+                                            i.fab.fa-js-square
+                                            i.fas.fa-database
+
+                                                
+                        
+                .card-container
+                    .card(id="3")
+                        .side
+                            img(class="" src="/img/MercadearProducto.png" alt="")
+                        .side.back
+                            .card-proyectos
+                                    img.card-img-top( src="/img/MercadearProducto.png" alt='')
+                                    .overlay
+                                        .proyectos 
+                                            h2.card-title TITULO DEL PROYECTO
+                                            p.card-text Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            .iconos-proyectos
+                                                a(href='#')
+                                                    i.fab.fa-github
+                                                a(href='https://isgam1.github.io/Sitio-Web-para-mercadear-un-Producto')
+                                                    i.fas.fa-link
+                                            p.card-text1 Lenguajes Utilizados   
+                                            .iconos-proyectos  
+                                                i.fab.fa-html5
+                                                i.fab.fa-bootstrap
+                                                i.fab.fa-js-square
+                                                i.fas.fa-database
+                                    
+                            
+
+                .card-container
+                    .card(id="4")
+                        .side
+                            img(class="" src="/img/image4.jpg" alt="")
+                        .side.back
+                            .card-proyectos
+                                img.card-img-top(src='/img/image3.jpg', alt='')
+                                .overlay
+                                    .proyectos                                
+                                        h2.card-title TITULO DEL PROYECTO
+                                        p.card-text Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        .iconos-proyectos
+                                            a(href='#')
+                                                i.fab.fa-github
+                                            a(href='#')
+                                                i.fas.fa-link
+                                        p.card-text1 Lenguajes Utilizados
+                                        .iconos-proyectos
+                                            img(src="/img/mysql.png" width="32" height="32")
+                                            img(src="/img/expressjs.png" width="32" height="32")
+                                            img(src="/img/react-js.png" width="32" height="32")
+                                            img(src="/img/node-js.png" width="32" height="32")                     
+
+
+
+                .card-container
+                    .card(id="5")
+                        .side
+                            img(class="" src="/img/image5.jpg" alt="")
+                        .side.back
+                            .card-proyectos
+                                    img.card-img-top( src="/img/image5.jpg" alt='')
+                                    .overlay
+                                        .proyectos 
+                                            h2.card-title TITULO DEL PROYECTO
+                                            p.card-text Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                            .iconos-proyectos
+                                                a(href='#')
+                                                    i.fab.fa-github
+                                                a(href='#')
+                                                    i.fas.fa-link
+                                            p.card-text1 Lenguajes Utilizados   
+                                            .iconos-proyectos  
+                                                i.fab.fa-laravel
+                                                i.fab.fa-bootstrap
+                                                i.fab.fa-vuejs
+                                                img.image(src="/img/mysql.png" width="32" height="32")
+                           
+                           
+                .card-container
+                    .card(id="6")
+                        .side
+                            img(class="" src="/img/image6.jpg" alt="")
+                        .side.back
+                            .card-proyectos
+                                img.card-img-top( src="/img/image6.jpg" alt='')
+                                .overlay
+                                    .proyectos 
+                                        h2.card-title TITULO DEL PROYECTO
+                                        p.card-text Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        .iconos-proyectos
+                                            a(href='#')
+                                                i.fab.fa-github
+                                            a(href='#')
+                                                i.fas.fa-link
+                                        p.card-text1 Lenguajes Utilizados   
+                                        .iconos-proyectos  
+                                            i.fab.fa-js-square
+                                            i.fab.fa-html5
+                                            i.fab.fa-css3-alt
+                                            i.fab.fa-js-square
+
+
+
+                .card-container
+                    .card(id="7")
+                        .side
+                            img(class="" src="/img/image6.jpg" alt="")
+                        .side.back
+                            .card-proyectos
+                                img.card-img-top( src="/img/image6.jpg" alt='')
+                                .overlay
+                                    .proyectos 
+                                        h2.card-title TITULO DEL PROYECTO
+                                        p.card-text Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        .iconos-proyectos
+                                            a(href='#')
+                                                i.fab.fa-github
+                                            a(href='#')
+                                                i.fas.fa-link
+                                        p.card-text1 Lenguajes Utilizados   
+                                        .iconos-proyectos  
+                                            i.fab.fa-js-square
+                                            i.fab.fa-html5
+                                            i.fab.fa-css3-alt
+                                            i.fab.fa-js-square
+
+
+
+                .card-container
+                    .card(id="8")
+                        .side
+                            img(class="" src="/img/image6.jpg" alt="")
+                        .side.back
+                            .card-proyectos
+                                img.card-img-top( src="/img/image6.jpg" alt='')
+                                .overlay
+                                    .proyectos 
+                                        h2.card-title TITULO DEL PROYECTO
+                                        p.card-text Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        .iconos-proyectos
+                                            a(href='#')
+                                                i.fab.fa-github
+                                            a(href='#')
+                                                i.fas.fa-link
+                                        p.card-text1 Lenguajes Utilizados   
+                                        .iconos-proyectos  
+                                            i.fab.fa-js-square
+                                            i.fab.fa-html5
+                                            i.fab.fa-css3-alt
+                                            i.fab.fa-js-square
+                                                        
+                                   
+                            
+        section.contacto.center.p-top.p-bottom2#contacto
+            .polygon1 
+            h2.t-center.p-bottom.titulo CONTACTO                              
+            .formulario
+                form(id="form" method="POST")
+                    .d-flex
+                        input(type="text" name="nombre" id="nombre" placeholder="Nombre") 
+                        input(type="text" name="apellido" id="apellido" placeholder="Apellido")
+                    input(type="email" name="email" id="email" placeholder="Correo eléctronico")
+                    textarea(name="text" id="text" cols="30" rows="10" placeholder="Ingresa aqui el mensaje que nos quieres compartir")
+                    input(type="submit" id='btn-enviar' class="btn btn-block" value="Enviar")
+
