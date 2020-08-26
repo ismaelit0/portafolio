@@ -275,7 +275,6 @@ textarea {
     -webkit-backface-visibility: hidden;
     border-radius: 6px;
     -webkit-overflow: hidden;
-    overflow: hidden;
     height: 220px;
 }
 
