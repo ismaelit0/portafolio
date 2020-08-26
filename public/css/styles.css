@@ -272,7 +272,7 @@ textarea {
 }
 
 .card .side {
-    --webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     border-radius: 6px;
     overflow: hidden;
     height: 220px;
