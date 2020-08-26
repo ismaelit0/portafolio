@@ -249,6 +249,8 @@ textarea {
     -webkit-transform-style: preserve-3d;
     transition: all 1s ease-in-out;
     height: auto;
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -274,9 +276,7 @@ textarea {
 .card .side {
     position:relative;
     -webkit-backface-visibility: hidden;
-    border-radius: 6px;
-    overflow: hidden;
-    height: 220px;
+    max-height: 100%;
 }
 
 .card .side .iconos-proyectos img{
