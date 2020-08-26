@@ -252,7 +252,7 @@ textarea {
 }
 
 .card:hover {
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .card-container{
